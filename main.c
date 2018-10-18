@@ -2,6 +2,10 @@
  * This programs is designed to find the length of a string that the user introduces without using the C Predesigned
  * Function of strlen().
  * For this program, we will initialize a counter that will increase according to each element that the user introduces.
+ *
+ * Author: Soraya Maqueda
+ * Date: 18.10.2018
+ * Contact: soraya_maqueda@hotmail.com
  */
 #include <stdio.h>
 #include <string.h>
@@ -13,8 +17,6 @@ int stringLength(char string[]) {
     while(string[length] != '\0'){
         length++;
     }
-
-    //for(length; length <= input; length++);
 
     return length;
 }
